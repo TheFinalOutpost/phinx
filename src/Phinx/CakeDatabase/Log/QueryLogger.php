@@ -16,8 +16,8 @@ declare(strict_types=1);
  */
 namespace Phinx\CakeDatabase\Log;
 
-use Cake\Log\Engine\BaseLog;
-use Cake\Log\Log;
+use Phinx\CakeLog\Engine\BaseLog;
+use Phinx\CakeLog\Log;
 
 /**
  * This class is a bridge used to write LoggedQuery objects into a real log.
@@ -43,7 +43,7 @@ class QueryLogger extends BaseLog
     /**
      * @inheritDoc
      */
-    public function log($level, $message, array $context = [])
+    public function log($level, $message, array $context = []): void
     {
         $context['scope'] = $this->scopes() ?: ['queriesLog'];
         $context['connection'] = $this->getConfig('connection');

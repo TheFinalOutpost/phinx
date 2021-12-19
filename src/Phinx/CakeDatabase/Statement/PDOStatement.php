@@ -16,7 +16,7 @@ declare(strict_types=1);
  */
 namespace Phinx\CakeDatabase\Statement;
 
-use Cake\Core\Exception\CakeException;
+use RuntimeException;
 use PDO;
 use PDOStatement as Statement;
 use Phinx\CakeDatabase\DriverInterface;
@@ -112,10 +112,7 @@ class PDOStatement extends StatementDecorator
         }
 
         if (!is_int($type)) {
-            throw new CakeException(sprintf(
-                'Fetch type for PDOStatement must be an integer, found `%s` instead',
-                getTypeName($type)
-            ));
+            throw new RuntimeException('Fetch type for PDOStatement must be an integer');
         }
 
         return $this->_statement->fetch($type);
@@ -149,10 +146,7 @@ class PDOStatement extends StatementDecorator
         }
 
         if (!is_int($type)) {
-            throw new CakeException(sprintf(
-                'Fetch type for PDOStatement must be an integer, found `%s` instead',
-                getTypeName($type)
-            ));
+            throw new RuntimeException('Fetch type for PDOStatement must be an integer');
         }
 
         return $this->_statement->fetchAll($type);

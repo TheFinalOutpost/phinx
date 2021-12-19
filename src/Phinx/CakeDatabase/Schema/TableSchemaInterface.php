@@ -16,6 +16,9 @@ declare(strict_types=1);
  */
 namespace Phinx\CakeDatabase\Schema;
 
+/**
+ * TODO: Update
+ */
 use Cake\Datasource\SchemaInterface;
 
 /**
