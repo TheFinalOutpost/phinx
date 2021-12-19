@@ -16,10 +16,7 @@ declare(strict_types=1);
  */
 namespace Phinx\CakeLog\Engine;
 
-/**
- * TODO update
- */
-use Cake\Console\ConsoleOutput;
+use Phinx\CakeConsole\ConsoleOutput;
 use InvalidArgumentException;
 
 /**
