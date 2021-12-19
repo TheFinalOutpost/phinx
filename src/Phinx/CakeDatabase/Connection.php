@@ -21,7 +21,7 @@ namespace Phinx\CakeDatabase;
  */
 use Cake\Cache\Cache;
 use Cake\Core\App;
-use Cake\Core\Retry\CommandRetry;
+use Phinx\CakeCore\Retry\CommandRetry;
 use Phinx\CakeDatabase\Exception\MissingConnectionException;
 use Phinx\CakeDatabase\Exception\MissingDriverException;
 use Phinx\CakeDatabase\Exception\MissingExtensionException;

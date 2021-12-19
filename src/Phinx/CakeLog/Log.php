@@ -15,9 +15,9 @@ declare(strict_types=1);
  */
 namespace Phinx\CakeLog;
 
+use InvalidArgumentException;
 use Phinx\CakeCore\StaticConfigTrait;
 use Phinx\CakeLog\Engine\BaseLog;
-use InvalidArgumentException;
 use Psr\Log\LoggerInterface;
 
 /**
