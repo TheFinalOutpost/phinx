@@ -19,7 +19,8 @@ namespace Phinx\CakeCore;
 /**
  * TODO update
  */
-use Cake\Cache\Cache;
+
+use Phinx\CakeCache\Cache;
 use Phinx\CakeCore\Configure\ConfigEngineInterface;
 use Phinx\CakeCore\Configure\Engine\PhpConfig;
 use Phinx\CakeUtility\Hash;

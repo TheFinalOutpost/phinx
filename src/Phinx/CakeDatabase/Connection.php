@@ -20,7 +20,7 @@ namespace Phinx\CakeDatabase;
  * TODO update
  */
 
-use Cake\Cache\Cache;
+use Phinx\CakeCache\Cache;
 use Phinx\CakeCore\App;
 use Phinx\CakeCore\Retry\CommandRetry;
 use Phinx\CakeDatabase\Exception\MissingConnectionException;
