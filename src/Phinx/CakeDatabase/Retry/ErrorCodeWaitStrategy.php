@@ -16,9 +16,6 @@ declare(strict_types=1);
  */
 namespace Phinx\CakeDatabase\Retry;
 
-/**
- * TODO update
- */
 
 use Exception;
 use PDOException;

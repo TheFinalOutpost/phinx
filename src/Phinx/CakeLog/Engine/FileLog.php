@@ -16,10 +16,6 @@ declare(strict_types=1);
  */
 namespace Phinx\CakeLog\Engine;
 
-/**
- * TODO update
- */
-
 use Phinx\CakeCore\Configure;
 use Phinx\CakeUtility\Text;
 

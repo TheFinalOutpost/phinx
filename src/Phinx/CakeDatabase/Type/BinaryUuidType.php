@@ -16,10 +16,6 @@ declare(strict_types=1);
  */
 namespace Phinx\CakeDatabase\Type;
 
-/**
- * TODO update
- */
-
 use PDO;
 use Phinx\CakeDatabase\DriverInterface;
 use Phinx\CakeUtility\Text;

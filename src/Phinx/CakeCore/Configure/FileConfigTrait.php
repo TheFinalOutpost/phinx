@@ -16,6 +16,9 @@ declare(strict_types=1);
  */
 namespace Phinx\CakeCore\Configure;
 
+/**
+ * TODO update
+ */
 use Phinx\CakeCore\Plugin;
 use RuntimeException;
 
