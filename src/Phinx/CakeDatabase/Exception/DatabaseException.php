@@ -25,5 +25,5 @@ class DatabaseException extends \RuntimeException
 }
 
 // phpcs:disable
-class_exists('Cake\Database\Exception');
+class_exists('Phinx\CakeDatabase\Exception');
 // phpcs:enable

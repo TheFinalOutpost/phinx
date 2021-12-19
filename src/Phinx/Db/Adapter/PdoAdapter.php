@@ -194,7 +194,7 @@ abstract class PdoAdapter extends AbstractAdapter implements DirectActionInterfa
     }
 
     /**
-     * Returns the Cake\Database connection object using the same underlying
+     * Returns the Phinx\CakeDatabase connection object using the same underlying
      * PDO object as this connection.
      *
      * @return \Phinx\CakeDatabase\Connection

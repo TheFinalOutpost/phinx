@@ -362,7 +362,7 @@ class FunctionsBuilder
      * Creates function parameter array from expression or string literal.
      *
      * @param \Phinx\CakeDatabase\ExpressionInterface|string $expression function argument
-     * @return (\Cake\Database\ExpressionInterface|string)[]
+     * @return (\Phinx\CakeDatabase\ExpressionInterface|string)[]
      */
     protected function toLiteralParam($expression)
     {

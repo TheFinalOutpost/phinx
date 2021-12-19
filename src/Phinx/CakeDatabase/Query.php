@@ -382,7 +382,7 @@ class Query implements ExpressionInterface, IteratorAggregate
      * objects:
      *
      * ```
-     * $cte = new \Cake\Database\Expression\CommonTableExpression(
+     * $cte = new \Phinx\CakeDatabase\Expression\CommonTableExpression(
      *     'cte',
      *     $connection
      *         ->newQuery()
@@ -399,8 +399,8 @@ class Query implements ExpressionInterface, IteratorAggregate
      *
      * ```
      * $query->with(function (
-     *     \Cake\Database\Expression\CommonTableExpression $cte,
-     *     \Cake\Database\Query $query
+     *     \Phinx\CakeDatabase\Expression\CommonTableExpression $cte,
+     *     \Phinx\CakeDatabase\Query $query
      *  ) {
      *     $cteQuery = $query
      *         ->select('*')
@@ -1847,7 +1847,7 @@ class Query implements ExpressionInterface, IteratorAggregate
      * if required.
      *
      * You can optionally pass a single raw SQL string or an array or expressions in
-     * any format accepted by \Cake\Database\Expression\QueryExpression:
+     * any format accepted by \Phinx\CakeDatabase\Expression\QueryExpression:
      *
      * ```
      * $expression = $query->newExpr(); // Returns an empty expression object

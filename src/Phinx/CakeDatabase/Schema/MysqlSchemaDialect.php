@@ -78,7 +78,7 @@ class MysqlSchemaDialect extends SchemaDialect
     /**
      * Convert a MySQL column type into an abstract type.
      *
-     * The returned type will be a type that Cake\Database\TypeFactory can handle.
+     * The returned type will be a type that Phinx\CakeDatabase\TypeFactory can handle.
      *
      * @param string $column The column type + length
      * @return array Array of column information.
@@ -627,5 +627,5 @@ class MysqlSchemaDialect extends SchemaDialect
 
 // phpcs:disable
 // Add backwards compatible alias.
-class_alias('Cake\Database\Schema\MysqlSchemaDialect', 'Cake\Database\Schema\MysqlSchema');
+class_alias('Phinx\CakeDatabase\Schema\MysqlSchemaDialect', 'Phinx\CakeDatabase\Schema\MysqlSchema');
 // phpcs:enable

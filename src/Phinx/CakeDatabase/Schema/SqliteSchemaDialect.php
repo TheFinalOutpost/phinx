@@ -44,11 +44,11 @@ class SqliteSchemaDialect extends SchemaDialect
      * Convert a column definition to the abstract types.
      *
      * The returned type will be a type that
-     * Cake\Database\TypeFactory can handle.
+     * Phinx\CakeDatabase\TypeFactory can handle.
      *
      * @param string $column The column type + length
      * @return array Array of column information.
-     *@throws \Phinx\CakeDatabase\Exception\DatabaseException when unable to parse column type
+     * @throws \Phinx\CakeDatabase\Exception\DatabaseException when unable to parse column type
      */
     protected function _convertColumn(string $column): array
     {
@@ -608,5 +608,5 @@ class SqliteSchemaDialect extends SchemaDialect
 
 // phpcs:disable
 // Add backwards compatible alias.
-class_alias('Cake\Database\Schema\SqliteSchemaDialect', 'Cake\Database\Schema\SqliteSchema');
+class_alias('Phinx\CakeDatabase\Schema\SqliteSchemaDialect', 'Phinx\CakeDatabase\Schema\SqliteSchema');
 // phpcs:enable

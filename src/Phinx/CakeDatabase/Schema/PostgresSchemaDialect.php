@@ -71,11 +71,11 @@ class PostgresSchemaDialect extends SchemaDialect
      * Convert a column definition to the abstract types.
      *
      * The returned type will be a type that
-     * Cake\Database\TypeFactory can handle.
+     * Phinx\CakeDatabase\TypeFactory can handle.
      *
      * @param string $column The column type + length
      * @return array Array of column information.
-     *@throws \Phinx\CakeDatabase\Exception\DatabaseException when column cannot be parsed.
+     * @throws \Phinx\CakeDatabase\Exception\DatabaseException when column cannot be parsed.
      */
     protected function _convertColumn(string $column): array
     {
@@ -659,5 +659,5 @@ class PostgresSchemaDialect extends SchemaDialect
 
 // phpcs:disable
 // Add backwards compatible alias.
-class_alias('Cake\Database\Schema\PostgresSchemaDialect', 'Cake\Database\Schema\PostgresSchema');
+class_alias('Phinx\CakeDatabase\Schema\PostgresSchemaDialect', 'Phinx\CakeDatabase\Schema\PostgresSchema');
 // phpcs:enable
