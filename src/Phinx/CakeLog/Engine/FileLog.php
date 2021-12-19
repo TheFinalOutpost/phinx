@@ -19,8 +19,9 @@ namespace Phinx\CakeLog\Engine;
 /**
  * TODO update
  */
-use Cake\Core\Configure;
-use Cake\Utility\Text;
+
+use Phinx\CakeCore\Configure;
+use Phinx\CakeUtility\Text;
 
 /**
  * File Storage stream for Logging. Writes logs to different files

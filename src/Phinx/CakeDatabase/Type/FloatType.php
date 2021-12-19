@@ -19,6 +19,7 @@ namespace Phinx\CakeDatabase\Type;
 /**
  * TODO update
  */
+
 use Cake\I18n\Number;
 use PDO;
 use Phinx\CakeDatabase\DriverInterface;
@@ -68,7 +69,7 @@ class FloatType extends BaseType implements BatchCastingInterface
      * @param mixed $value The value to convert.
      * @param \Phinx\CakeDatabase\DriverInterface $driver The driver instance to convert with.
      * @return float|null
-     * @throws \Cake\Core\Exception\CakeException
+     * @throws \Phinx\CakeCore\Exception\CakeException
      */
     public function toPHP($value, DriverInterface $driver): ?float
     {

@@ -19,8 +19,9 @@ namespace Phinx\CakeDatabase;
 /**
  * TODO update
  */
+
 use Cake\Cache\Cache;
-use Cake\Core\App;
+use Phinx\CakeCore\App;
 use Phinx\CakeCore\Retry\CommandRetry;
 use Phinx\CakeDatabase\Exception\MissingConnectionException;
 use Phinx\CakeDatabase\Exception\MissingDriverException;
@@ -213,7 +214,7 @@ class Connection
      * Get the retry wrapper object that is allows recovery from server disconnects
      * while performing certain database actions, such as executing a query.
      *
-     * @return \Cake\Core\Retry\CommandRetry The retry wrapper
+     * @return \Phinx\CakeCore\Retry\CommandRetry The retry wrapper
      */
     public function getDisconnectRetry(): CommandRetry
     {

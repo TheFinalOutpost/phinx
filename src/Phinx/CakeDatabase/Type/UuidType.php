@@ -19,8 +19,9 @@ namespace Phinx\CakeDatabase\Type;
 /**
  * TODO update
  */
-use Cake\Utility\Text;
+
 use Phinx\CakeDatabase\DriverInterface;
+use Phinx\CakeUtility\Text;
 
 /**
  * Provides behavior for the UUID type

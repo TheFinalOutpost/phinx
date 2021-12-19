@@ -19,9 +19,10 @@ namespace Phinx\CakeDatabase\Type;
 /**
  * TODO update
  */
-use Cake\Utility\Text;
+
 use PDO;
 use Phinx\CakeDatabase\DriverInterface;
+use Phinx\CakeUtility\Text;
 use RuntimeException;
 
 /**

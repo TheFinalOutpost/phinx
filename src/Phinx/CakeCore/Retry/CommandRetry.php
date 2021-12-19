@@ -29,7 +29,7 @@ class CommandRetry
     /**
      * The strategy to follow should the executed action fail.
      *
-     * @var \Cake\Core\Retry\RetryStrategyInterface
+     * @var \Phinx\CakeCore\Retry\RetryStrategyInterface
      */
     protected $strategy;
 
@@ -46,7 +46,7 @@ class CommandRetry
     /**
      * Creates the CommandRetry object with the given strategy and retry count
      *
-     * @param \Cake\Core\Retry\RetryStrategyInterface $strategy The strategy to follow should the action fail
+     * @param \Phinx\CakeCore\Retry\RetryStrategyInterface $strategy The strategy to follow should the action fail
      * @param int $maxRetries The maximum number of retry attempts allowed
      */
     public function __construct(RetryStrategyInterface $strategy, int $maxRetries = 1)

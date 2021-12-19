@@ -19,9 +19,10 @@ namespace Phinx\CakeDatabase\Retry;
 /**
  * TODO update
  */
-use Cake\Core\Retry\RetryStrategyInterface;
+
 use Exception;
 use PDOException;
+use Phinx\CakeCore\Retry\RetryStrategyInterface;
 
 /**
  * Implements retry strategy based on db error codes and wait interval.

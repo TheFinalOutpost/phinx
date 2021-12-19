@@ -19,12 +19,13 @@ namespace Phinx\CakeDatabase;
 /**
  * TODO update
  */
-use Cake\Core\App;
-use Cake\Core\Retry\CommandRetry;
+
 use Closure;
 use InvalidArgumentException;
 use PDO;
 use PDOException;
+use Phinx\CakeCore\App;
+use Phinx\CakeCore\Retry\CommandRetry;
 use Phinx\CakeDatabase\Exception\MissingConnectionException;
 use Phinx\CakeDatabase\Retry\ErrorCodeWaitStrategy;
 use Phinx\CakeDatabase\Schema\SchemaDialect;

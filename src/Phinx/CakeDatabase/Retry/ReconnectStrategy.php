@@ -19,8 +19,9 @@ namespace Phinx\CakeDatabase\Retry;
 /**
  * TODO update
  */
-use Cake\Core\Retry\RetryStrategyInterface;
+
 use Exception;
+use Phinx\CakeCore\Retry\RetryStrategyInterface;
 use Phinx\CakeDatabase\Connection;
 
 /**
