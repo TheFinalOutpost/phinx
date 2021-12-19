@@ -17,7 +17,7 @@ declare(strict_types=1);
 namespace Phinx\CakeLog;
 
 use Cake\Core\App;
-use Cake\Core\ObjectRegistry;
+use Phinx\CakeCore\ObjectRegistry;
 use Psr\Log\LoggerInterface;
 use RuntimeException;
 

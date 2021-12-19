@@ -15,8 +15,8 @@ declare(strict_types=1);
  */
 namespace Phinx\CakeLog;
 
-use Cake\Core\StaticConfigTrait;
-use Cake\Log\Engine\BaseLog;
+use Phinx\CakeCore\StaticConfigTrait;
+use Phinx\CakeLog\Engine\BaseLog;
 use InvalidArgumentException;
 use Psr\Log\LoggerInterface;
 
