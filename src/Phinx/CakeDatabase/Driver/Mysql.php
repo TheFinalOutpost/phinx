@@ -17,6 +17,7 @@ declare(strict_types=1);
 namespace Phinx\CakeDatabase\Driver;
 
 use PDO;
+use Phinx\CakeDatabase\Driver;
 use Phinx\CakeDatabase\Query;
 use Phinx\CakeDatabase\Schema\MysqlSchemaDialect;
 use Phinx\CakeDatabase\Schema\SchemaDialect;

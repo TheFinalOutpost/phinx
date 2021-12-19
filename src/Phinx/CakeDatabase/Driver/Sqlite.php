@@ -18,6 +18,7 @@ namespace Phinx\CakeDatabase\Driver;
 
 use InvalidArgumentException;
 use PDO;
+use Phinx\CakeDatabase\Driver;
 use Phinx\CakeDatabase\Expression\FunctionExpression;
 use Phinx\CakeDatabase\Expression\TupleComparison;
 use Phinx\CakeDatabase\Query;

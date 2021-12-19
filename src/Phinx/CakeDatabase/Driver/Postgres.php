@@ -17,6 +17,7 @@ declare(strict_types=1);
 namespace Phinx\CakeDatabase\Driver;
 
 use PDO;
+use Phinx\CakeDatabase\Driver;
 use Phinx\CakeDatabase\Expression\FunctionExpression;
 use Phinx\CakeDatabase\Expression\IdentifierExpression;
 use Phinx\CakeDatabase\Expression\StringExpression;
