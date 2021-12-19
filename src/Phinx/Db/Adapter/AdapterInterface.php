@@ -287,7 +287,7 @@ interface AdapterInterface
     /**
      * Returns a new Query object
      *
-     * @return \Cake\Database\Query
+     * @return \Phinx\CakeDatabase\Query
      */
     public function getQueryBuilder();
 

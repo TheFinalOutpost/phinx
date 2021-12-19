@@ -157,7 +157,7 @@ interface MigrationInterface
      * the dry-run settings.
      *
      * @see https://api.cakephp.org/3.6/class-Cake.Database.Query.html
-     * @return \Cake\Database\Query
+     * @return \Phinx\CakeDatabase\Query
      */
     public function getQueryBuilder();
 

@@ -8,11 +8,11 @@
 namespace Phinx\Db\Adapter;
 
 use BadMethodCallException;
-use Cake\Database\Connection;
-use Cake\Database\Driver\Sqlserver as SqlServerDriver;
 use InvalidArgumentException;
 use PDO;
 use PDOException;
+use Phinx\CakeDatabase\Connection;
+use Phinx\CakeDatabase\Driver\Sqlserver as SqlServerDriver;
 use Phinx\Db\Table\Column;
 use Phinx\Db\Table\ForeignKey;
 use Phinx\Db\Table\Index;

@@ -7,10 +7,10 @@
 
 namespace Phinx\Db\Adapter;
 
-use Cake\Database\Connection;
-use Cake\Database\Driver\Mysql as MysqlDriver;
 use InvalidArgumentException;
 use PDO;
+use Phinx\CakeDatabase\Connection;
+use Phinx\CakeDatabase\Driver\Mysql as MysqlDriver;
 use Phinx\Db\Table\Column;
 use Phinx\Db\Table\ForeignKey;
 use Phinx\Db\Table\Index;
